@@ -1,0 +1,28 @@
+1) Hacer la cadena de conexión en WebConfig:
+	<connectionStrings>
+		<add name="BDLocal" connectionString="Server=(local);Database=BD_CRUD;Trusted_Connection=True;TrustServerCertificate=True;" providerName="System.Data.SqlClient" />
+	</connectionStrings>
+2) Creamos en models(es una clase) los constructores
+3) Creamos el Gestor
+4) Creamos el Constructor
+5) En Web Api Config
+	GlobalConfiguration.Configuration.Formatters.JsonFormatter.MediaTypeMappings
+    .Add(new System.Net.Http.Formatting.RequestHeaderMapping("Accept",
+        "text/html",
+        StringComparison.InvariantCultureIgnoreCase,
+        true,
+        "application/json"
+    ));
+	para convertir a json
+6) También instalamos microsoft.AspNet.WebApi.Cors
+7) en web config colocamos , config.EnableCors(); 
+
+PARA EL FRONT
+1) Creamos un proyecto con ng New 'nombred de la carpeta'
+2) instalamos bostrap con npm install Bootstrap
+3) Importamos en angular.json ,"node_modules/bootstrap/dist/css/bootstrap.min.css","node_modules/bootstrap/dist/js/bootstrap.min.js"
+3) Creamos los servicios con ng g s services/mascota 
+4) En appconfing.ts importamos esto importProvidersFrom(HttpClientModule)
+4) Creamos el modelo lo mismo que la base de datos
+5) Creamos los servicios
+6) Empezamos en app.components.ts para crear las funciones

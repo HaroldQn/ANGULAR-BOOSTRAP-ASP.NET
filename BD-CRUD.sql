@@ -15,6 +15,7 @@ CREATE TABLE Mascota(
 	idmascota int primary key identity(1,1),
 	idraza int,
 	nombre_mascota varchar(50) not null
+	foreign key (idraza) references raza(idraza)
 )
 go
 insert into Mascota(idraza,nombre_mascota)values(1,'Barbas'),(2,'Duki')
@@ -27,13 +28,16 @@ begin
 end
 go
 
+exec sp_getMascotaAll
+GO
+
 create proc sp_addMascota(
 	@idraza int,
 	@nombre_mascota varchar(50)
 )
 as
 begin
-	insert into Mascota(idmascota,nombre_mascota)values(@idraza,@nombre_mascota)
+	insert into Mascota(idraza,nombre_mascota)values(@idraza,@nombre_mascota)
 end
 go
 

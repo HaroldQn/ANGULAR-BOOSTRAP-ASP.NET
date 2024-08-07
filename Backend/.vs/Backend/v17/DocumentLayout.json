@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CSharp_Curso\\ANGULAR(BOOSTRAP) \u002B ASP.NET\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0271CD3D-55CC-4F84-9600-DB2D7E10C1D2}|Backend.csproj|c:\\csharp_curso\\angular(boostrap) \u002B asp.net\\backend\\models\\gestormascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0271CD3D-55CC-4F84-9600-DB2D7E10C1D2}|Backend.csproj|solutionrelative:models\\gestormascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0271CD3D-55CC-4F84-9600-DB2D7E10C1D2}|Backend.csproj|c:\\csharp_curso\\angular(boostrap) \u002B asp.net\\backend\\controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0271CD3D-55CC-4F84-9600-DB2D7E10C1D2}|Backend.csproj|solutionrelative:controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0271CD3D-55CC-4F84-9600-DB2D7E10C1D2}|Backend.csproj|c:\\csharp_curso\\angular(boostrap) \u002B asp.net\\backend\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0271CD3D-55CC-4F84-9600-DB2D7E10C1D2}|Backend.csproj|solutionrelative:app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0271CD3D-55CC-4F84-9600-DB2D7E10C1D2}|Backend.csproj|c:\\csharp_curso\\angular(boostrap) \u002B asp.net\\backend\\models\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0271CD3D-55CC-4F84-9600-DB2D7E10C1D2}|Backend.csproj|solutionrelative:models\\mascota.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 67,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mascota.cs",
+              "DocumentMoniker": "C:\\CSharp_Curso\\ANGULAR(BOOSTRAP) \u002B ASP.NET\\Backend\\Models\\Mascota.cs",
+              "RelativeDocumentMoniker": "Models\\Mascota.cs",
+              "ToolTip": "C:\\CSharp_Curso\\ANGULAR(BOOSTRAP) \u002B ASP.NET\\Backend\\Models\\Mascota.cs",
+              "RelativeToolTip": "Models\\Mascota.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:17:48.404Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GestorMascota.cs",
+              "DocumentMoniker": "C:\\CSharp_Curso\\ANGULAR(BOOSTRAP) \u002B ASP.NET\\Backend\\Models\\GestorMascota.cs",
+              "RelativeDocumentMoniker": "Models\\GestorMascota.cs",
+              "ToolTip": "C:\\CSharp_Curso\\ANGULAR(BOOSTRAP) \u002B ASP.NET\\Backend\\Models\\GestorMascota.cs",
+              "RelativeToolTip": "Models\\GestorMascota.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAEUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T18:43:04.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MascotaController.cs",
+              "DocumentMoniker": "C:\\CSharp_Curso\\ANGULAR(BOOSTRAP) \u002B ASP.NET\\Backend\\Controllers\\MascotaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MascotaController.cs",
+              "ToolTip": "C:\\CSharp_Curso\\ANGULAR(BOOSTRAP) \u002B ASP.NET\\Backend\\Controllers\\MascotaController.cs",
+              "RelativeToolTip": "Controllers\\MascotaController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:53:00.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\CSharp_Curso\\ANGULAR(BOOSTRAP) \u002B ASP.NET\\Backend\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\CSharp_Curso\\ANGULAR(BOOSTRAP) \u002B ASP.NET\\Backend\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "App_Start\\WebApiConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:52:10.839Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

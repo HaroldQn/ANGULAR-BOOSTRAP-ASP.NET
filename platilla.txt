@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hola</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row text-center mt-4">
+      <div class="col">
+        <img src="parabuscar" alt=""
+          class="img-fluid" width="200px">
+      </div>
+    </div>
+  
+    <div class="row text-center mt-5">
+      <div class="col">
+        <h2>CURD MASCOTAS</h2>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-2">
+        <label for="txtId" class="form-label">ID</label>
+        <input type="text" name="id" id="txtId" class="form-control" disabled>
+      </div>
+      <div class="col-md-2">
+        <label for="txtNombre" class="form-label">Nombre</label>
+        <input type="text" name="id" id="txtNombre" class="form-control">
+      </div>
+      <div class="col-md-2">
+        <label for="txtEdad" class="form-label">Edad</label>
+        <input type="text" name="id" id="txtEdad" class="form-control">
+      </div>
+      <div class="col-md-2">
+        <label for="txtDesc" class="form-label">Descripcion</label>
+        <input type="text" name="id" id="txtDesc" class="form-control">
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col">
+        <button class="btn btn-success" id="btnGuardar" type="button">Agregar</button>
+        <button class="btn btn-warning m-2" id="btnGuardar" type="button">Modificar</button>
+        <button class="btn btn-danger " id="btnGuardar" type="button">Eliminar</button>
+        <button class="btn btn-secondary m-2" id="btnGuardar" type="button">Limpiar</button>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col">
+        <table id="dtMascota" class="table table-striped" style="width: 100%;">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Edad</th>
+              <th>Descripcion</th>
+              <th>Operacion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of datatable">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><input type="button" class="btn btn-primary" value="Selecionar"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+  
+</body>
+</html>
